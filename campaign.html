@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnd campaign</title>
+    <link rel="stylesheet" href="campaign.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>DnD Hemsida</h1>
+      </header>
+      <nav class="campaign-list">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campaign.html">Main</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="map.html">Map of the World</a></li>
+            <li><a href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+
+      <div id="showCharacter">
+        <h1>Add New Character</h1>
+        <h4>Type in the name of your character</h4>
+        <input id="find_id" type="text" placeholder="Character Name"> <br><br>
+        <button id="find">Add</button>
+        <div id="show_stats">
+          <h5 id="find_name" type="text"></h5>
+          <h5 id="find_character_name" type="text"></h5><br>
+          <h5 id="find_hp" type="number"></h5>
+          <h5 id="find_ac" type="number"></h5><br>
+
+          <h5 id="find_str" type="number"></h5>
+          <h5 id="find_dex" type="number"></h5>
+          <h5 id="find_con" type="number"></h5>
+          <h5 id="find_int" type="number"></h5>
+          <h5 id="find_wis" type="number"></h5>
+          <h5 id="find_cha" type="number"></h5><br>
+
+          <h5 id="find_pp" type="number"></h5>
+          <h5 id="find_gp" type="number"></h5>
+          <h5 id="find_sp" type="number"></h5>
+          <h5 id="find_cp" type="number"></h5>
+        </div>
+      </div>
+      <script type="module" src="find.js"></script>
+</body>

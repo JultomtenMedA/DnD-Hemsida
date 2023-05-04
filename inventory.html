@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnd campaign</title>
+    <link rel="stylesheet" href="inventory.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>DnD Hemsida</h1>
+      </header>
+      <nav class="campaign-list">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campaign.html">Main</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="map.html">Map of the World</a></li>
+            <li><a href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+
+      <div id="showCharacter">
+        <h1>View Character Inventory</h1>
+        <h4>Type in the name of your character</h4>
+        <input id="find_id" type="text" placeholder="Character Name"> <br><br>
+        <button id="find">View</button>
+        <h2 id="find_character_name" type="text"></h2>
+        <div id="show_inventory">
+          <h4 id="find_abilities" type="text"></h4>
+          <h4 id="find_weapons" type="text"></h4>
+          <h4 id="find_inventory" type="text"></h4>
+      </div>
+      <script type="module" src="find_inventory.js"></script>
+</body>

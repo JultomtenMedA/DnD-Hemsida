@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnd campaign</title>
+    <link rel="stylesheet" href="notes.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>DnD Hemsida</h1>
+    </header>
+
+    <nav class="campaign-list">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="campaign.html">Main</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="map.html">Map of the World</a></li>
+            <li><a href="notes.html">Notes</a></li>
+        </ul>
+    </nav>
+        
+    <div class="Box">
+        <input type="number" id="enter_sesion" placeholder="Enter the sesions number">
+    </div>
+
+    <div  class="Box">
+    <label for="notes"></label>
+        <textarea id="enter_notes" placeholder="Notes" rows="6" cols="35"></textarea><br><br>
+    </div>
+
+    <div class="Box">
+        <button type="button" id="save" placeholder="submit">Save</button>
+        <button type="button" id="remove" placeholder="submit">Remove</button>
+    </div>
+
+
+    <div class="Box">
+        <input type="number" id="find_id" placeholder="Vilken sesion vill du söka efter">
+    </div>
+
+    <div class="Box">
+        <button type="button" id="find" placeholder="submit">Find</button>
+    </div>
+
+    <div class="Box">
+        <div class="Output">
+            <h4 type="text" id="find_notes"></h4>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <script type="module" src="enter_notes.js"></script>
+    <script type="module" src="find_notes.js"></script>
+</body>

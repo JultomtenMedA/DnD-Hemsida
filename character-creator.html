@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dnd campaign</title>
+    <link rel="stylesheet" href="character-creator.css" type="text/css">
+</head>
+  <body>
+    <header>
+      <h1>DnD Hemsida</h1>
+    </header>
+    <nav>
+		<ul class="campaign-list">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="campaign.html">Campaign 1</a></li>
+			<li><a href="campaign.html">Campaign 2</a></li>
+			<li><a href="campaign.html">Campaign 3</a></li>
+		</ul>
+    </nav>
+    <main>
+		<h2>Create Character</h2>
+		<form class="form">
+        <div class="Box">
+			<label for="name">Name:</label>
+			<input type="text" id="enter_name" placeholder="name">
+
+			<label for="character-name">Character Name:</label>
+			<input type="text" id="enter_character_name" placeholder="character name">
+        </div><br>
+
+        <div class="Box">
+			<label for="campaign">Campaign:</label>
+			
+			<select id="enter_campaign" placeholder="campaign" title="Enter_campaign">
+				<option value="campaign1">Campaign 1</option>
+				<option value="campaign1">Campaign 2</option>
+				<option value="campaign1">Campaign 3</option>
+			</select><br><br>
+        </div><br>
+
+		<div class="Box">
+			<label for="hp">Hit Points:</label>
+			<input type="number" id="enter_hp" placeholder="hp">
+	  </div><br>
+
+        <div class="Box">
+          	<label for="ac">Armor Class:</label>
+          	<input type="number" id="enter_ac" placeholder="ac">
+        </div><br>
+
+		<div class="statBox">
+			<div class="stats">
+				<div class="wrap">
+					<label for="str">str:</label>
+					<input type="number" id="enter_str" placeholder="str">
+					<label for="dex">dex:</label>
+					<input type="number" id="enter_dex" placeholder="dex">
+					<label for="con">con:</label>
+					<input type="number" id="enter_con" placeholder="con">
+					<label for="int">int:</label>
+					<input type="number" id="enter_int" placeholder="int">
+					<label for="wis">wis:</label>
+					<input type="number" id="enter_wis" placeholder="wis">
+					<label for="cha">cha:</label>
+					<input type="number" id="enter_cha" placeholder="cha">
+				</div>
+		  </div><br>
+	
+			<div class="coinRow">
+				  <label for="pp">pp:</label>
+				  <input type="number" id="enter_pp" placeholder="pp">
+				  <label for="gp">gp:</label>
+				  <input type="number" id="enter_gp" placeholder="gp">
+				  <label for="sp">sp:</label>
+				  <input type="number" id="enter_sp" placeholder="sp">
+				  <label for="cp">cp:</label>
+				  <input type="number" id="enter_cp" placeholder="cp">
+			</div><br>
+		</div>
+
+		<div  class="Box">
+			<label for="abilities">Abilities:</label>
+          	<textarea id="enter_abilities" placeholder="abilities" rows="6" cols="30"></textarea><br><br>
+        </div><br>
+
+		<div class="Box">
+		  	<label for="weapons">Weapons:</label>
+		  	<textarea id="enter_weapons" placeholder="weapons" rows="6" cols="30"></textarea><br><br>
+		</div><br>
+
+        <div class="Box">
+          	<label for="inventory">Inventory:</label>
+          	<textarea id="enter_inventory" placeholder="inventory" rows="6" cols="30"></textarea><br><br>
+        </div><br>
+
+        <div class="Box">
+          	<button type="button" id="insert" placeholder="submit">New</button>
+          	<button type="button" id="update" placeholder="submit">Update</button>
+          	<button type="button" id="remove" placeholder="submit">Remove</button>
+        </div>
+      </form>
+    </main>
+    <script type="module" src="character-creator.js"></script>
+  </body>
+</html>
