@@ -46,13 +46,6 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.Box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1%;
-}
-
 #enter_sesion {
     display: flex;
     justify-content: center;
@@ -77,12 +70,7 @@ button:hover {
 	background-color: #4d0a0a;
 }
 
-#find_notes {
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #find_id {
     width: 18%;
@@ -94,9 +82,21 @@ button:hover {
     text-align: center;
 }
 
+.Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
 .Output {
     background-color: aquamarine;
     display: flex;
     width: 75%;
+    height: 95vh;
+}
+
+#find_notes {
+    background-color: whitesmoke;
     flex-wrap: wrap;
 }
