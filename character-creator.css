@@ -55,14 +55,12 @@ body {
   form input[type="text"],
   form input[type="number"],
   form textarea {
-	width: 40%;
+	width: 5%;
+	height: 8%;
 	padding: 10px;
 	margin-bottom: 10px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-}
-form input[type="number"] {
-	text-align: center;
 }
 
 form select {
@@ -105,7 +103,7 @@ form button {
 
 .coinRow>* {
 	flex: 1 1 auto;
-	padding: 0 10px;
+	padding: 0 80px;
 	box-sizing: border-box;
   }
   
@@ -124,4 +122,19 @@ form button {
 .statBox {
 	display: flex;
 	justify-content: center;
+	height: 15vh;
+	align-items: center;
+}
+
+.stats {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.coinRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
