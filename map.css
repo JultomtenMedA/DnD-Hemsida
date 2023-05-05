@@ -72,9 +72,13 @@ button:hover {
 }
 
 .bild {
+    display: flex;
     width: 100%;
     height: auto;
-    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#bb {
+    width: 60.8%
 }

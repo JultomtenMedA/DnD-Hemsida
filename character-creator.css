@@ -55,23 +55,26 @@ body {
   form input[type="text"],
   form input[type="number"],
   form textarea {
-	width: 45%;
+	width: 40%;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-  }
-  
-  form select {
+}
+form input[type="number"] {
+	text-align: center;
+}
+
+form select {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 20px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	background-color: #fff;
-  }
-  
-  form button {
+}
+
+form button {
 	background-color: #580404;
 	border: none;
 	color: #fff;
@@ -83,21 +86,12 @@ body {
 	margin-right: 10px;
 	border-radius: 4px;
 	cursor: pointer;
-  }
+}
   
   form button:hover {
 	background-color: #4d0a0a;
   }
-  
-  form #msg {
-	margin-top: 20px;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	font-family: monospace;
-	white-space: pre;
-  }
-  
+
   .Box {
 	display: flex;
 	flex-wrap: wrap;
@@ -107,9 +101,9 @@ body {
 	flex: 1 1 100%;
 	padding: 0 10px;
 	box-sizing: border-box;
-  }
-  
-  .coinRow>* {
+  }  
+
+.coinRow>* {
 	flex: 1 1 auto;
 	padding: 0 10px;
 	box-sizing: border-box;
@@ -127,15 +121,7 @@ body {
 	}
   }
 
-  .statBox {
+.statBox {
 	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-  }
-
-  .wrap{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-  }
-
+	justify-content: center;
+}
