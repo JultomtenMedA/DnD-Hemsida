@@ -90,13 +90,7 @@ button:hover {
 }
 
 .Output {
-    background-color: aquamarine;
     display: flex;
-    width: 75%;
-    height: 95vh;
-}
-
-#find_notes {
-    background-color: whitesmoke;
-    flex-wrap: wrap;
+    width: 60%;
+    border: black 1px dotted;
 }
