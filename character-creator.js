@@ -138,9 +138,7 @@ function UpdateDataCp1(){
 }
 
 function RemoveDataCp1(){
-    var id = enter_character_name.value;
-
-    remove(ref(db, 'DnD/campaign1/' + id))
+    remove(ref(db, 'DnD/campaign1/' + enter_character_name.value))
     .then(() => {
         alert("Data removed");
     })

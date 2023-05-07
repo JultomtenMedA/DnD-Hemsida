@@ -46,9 +46,25 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-#showCharacter {
+.show_character {
   text-align: center;
 }
+
+
+#show_stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+#name {
+  width: 20%;
+}
+#stats {
+  width: 20%;
+}
+#coins {
+  width: 20%;
+}
+
 
 button {
 	background-color: #580404;
